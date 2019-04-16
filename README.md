@@ -8,9 +8,8 @@ For most convergent series, the rate of convergence can be accelerated by applyi
 Shank's Transformation is defined as:
 
 <p align="center">
-  <img width="300" height="300" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4aac7ae9021d03bbc9e5c6bfa0bd80ce2ae69462">
+  <img width="300" height="200" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/54465b7c5c77f1cc947595def797ac7a62064a74">
 </p>
-
 
 <p align="center">
   <img width="150" height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cfa16105f38678c4b8151cd1ac1cd1a0a8d219c6">

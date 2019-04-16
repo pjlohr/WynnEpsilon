@@ -16,7 +16,7 @@ This gives a method to solve for the k<sup>th</sup>-order Shank's Transformation
 
 
 <p align="center">
-  <img width="400" height="75" src="http://www.adamponting.com/wp-content/ql-cache/quicklatex.com-91b574374d16e4cc835dc61a880325a8_l3.png">
+  <img width="400" height="50" src="http://www.adamponting.com/wp-content/ql-cache/quicklatex.com-91b574374d16e4cc835dc61a880325a8_l3.png">
 </p>
 Here, each ε<sub>2k</sub> is the equivalent of applying the k<sup>th</sup> Shanks Transformation to the n<sup>th</sup> partial sum S<sbp>n</sub>
 

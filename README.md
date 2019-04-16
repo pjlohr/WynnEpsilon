@@ -13,10 +13,10 @@ Shank's Transformation is defined as:
 Where A<sub>p</sub> are the pth partial sums of the sequence, and ΔA<sub>p</sub> = A<sub>p+1</sub> - A<sub>p</sub>.
 This gives a method to solve for the k<sup>th</sup>-order Shank's Transformation.
 
-Peter Wynn introdocued an efficient algorithm for computing the k<sup>th</sup> Shank's Transformation that is:
+Peter Wynn introduced an efficient algorithm for computing the k<sup>th</sup> Shank's Transformation that is:
 
 <p align="center">
-  <img width="150" height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cfa16105f38678c4b8151cd1ac1cd1a0a8d219c6">
+  <img width="150" height="100" src="http://www.adamponting.com/wp-content/ql-cache/quicklatex.com-91b574374d16e4cc835dc61a880325a8_l3.png">
 </p>
 
 <p align="center">

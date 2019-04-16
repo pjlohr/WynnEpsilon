@@ -16,7 +16,7 @@ This gives a method to solve for the k<sup>th</sup>-order Shank's Transformation
 Peter Wynn introduced an efficient algorithm for computing the k<sup>th</sup> Shank's Transformation that is:
 
 <p align="center">
-  <img width="150" height="100" src="http://www.adamponting.com/wp-content/ql-cache/quicklatex.com-91b574374d16e4cc835dc61a880325a8_l3.png">
+  <img width="400" height="75" src="http://www.adamponting.com/wp-content/ql-cache/quicklatex.com-91b574374d16e4cc835dc61a880325a8_l3.png">
 </p>
 
 <p align="center">

@@ -20,6 +20,7 @@ This gives a method to solve for the k<sup>th</sup>-order Shank's Transformation
 </p>
 Here, each ε<sub>2k</sub> is the equivalent of applying the k<sup>th</sup> Shanks Transformation to the n<sup>th</sup> partial sum S<sub>n</sub>. ε<sub>0</sub> is defined as S<sub>n</sub>, and the primary diagonal gives the next approximation.
 
+
 For this example, take the Gregory-Leibniz series for calculating π:
 
 <p align="center">

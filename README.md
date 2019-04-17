@@ -34,12 +34,12 @@ wynnpi.py takes an integer argument N and implements Wynn's epsilon method to fi
 (biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ ./wynnpi.py -h
 usage: wynnpi.py [-h] [-n INT]
 
-Wynn Epsilon for Gregory-Leibniz
+Wynn Epsilon for Gregory-Leibniz series
 
 optional arguments:
   -h, --help            show this help message and exit
   -n INT, --numterms INT
-                        Number of series terms (default: 10)
+                        Number of series terms (1<=n<=22) (default: 10)
 (biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
 ````
 ````

@@ -25,9 +25,4 @@ For this example, take the Gregory-Leibniz series for calculating π: <br />
 </p>
 This series will eventually converge to π, but it will take thousands of terms to get even a decent a approximation! Just take a look at http://www.eveandersson.com/pi/gregory-leibniz. Even after 1000 terms, the series is only accurate to 2 decimal places.<br/>
 
-<br/>
-
-
-
-
 wynnpi.py takes an integer arguement N and implements Wynn's epsilon method to find a highly precise approximation for π after N terms of the Gregory-Leibniz series.

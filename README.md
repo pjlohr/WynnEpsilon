@@ -32,12 +32,3 @@ wynnpi.py takes an integer argument N and implements Wynn's epsilon method to fi
 usage: wynnpi.py [-h] [-n INT]<br/>
 <br/>
 
-Graph through sequences
-
-positional arguments:
-  str                   FASTA file
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -k int, --overlap int
-                        K size of overlap (default: 3)

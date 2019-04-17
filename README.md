@@ -1,5 +1,5 @@
 # Implementation of Wynn's Epsilon Method For Convergence Acceleration
-For most convergent series, the rate of convergence can be accelerated by applying the Shanks Transformation, which approximates the limit of a sequence in a non-linear fashion. That is, for a series of the form:
+For most convergent series, the rate of convergence can be accelerated by applying the [Shanks Transformation](https://en.wikipedia.org/wiki/Shanks_transformation), which approximates the limit of a sequence in a non-linear fashion. That is, for a series of the form:
 
 <p align="center">
   <img width="150" height="75" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec37238b37bf8eacbdd244beeb8e6da607b17021">
@@ -23,6 +23,5 @@ For this example, take the Gregory-Leibniz series for calculating π: <br />
 <p align="center">
   <img width="150" height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cfa16105f38678c4b8151cd1ac1cd1a0a8d219c6">
 </p>
-
 This series will eventually converge to π, but it will take thousands of terms to get even a decent a approximation! Just take a look at http://www.eveandersson.com/pi/gregory-leibniz. Even after 1000 terms, the series is only accurate to 2 decimal places.
 

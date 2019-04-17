@@ -32,10 +32,12 @@ wynnpi.py takes an integer argument N and implements Wynn's epsilon method to fi
 usage: wynnpi.py [-h] [-n INT]<br/>
 <br/>
 
-Wynn Epsilon for Gregory-Leibniz
+Graph through sequences
+
+positional arguments:
+  str                   FASTA file
 
 optional arguments:
   -h, --help            show this help message and exit
-  -n INT, --numterms INT
-                        Number of series terms (default: 10)
-
+  -k int, --overlap int
+                        K size of overlap (default: 3)

@@ -28,15 +28,15 @@ This series will eventually converge to π, but it will take thousands of terms 
 
 wynnpi.py takes an integer argument N and implements Wynn's epsilon method to find a highly precise approximation for π after N terms of the Gregory-Leibniz series.
 
+''''
 (biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ ./wynnpi.py -h
-usage: wynnpi.py [-h] [-n INT]<br/>
-<br/>
+usage: wynnpi.py [-h] [-n INT]
+
 Wynn Epsilon for Gregory-Leibniz
 
-optional arguments:<br/>
-  -h, --help            show this help message and exit<br/>
-  -n INT, --numterms INT<br/>
-                        Number of series terms (default: 10)<br/>
-(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ <br/>
-
-
+optional arguments:
+  -h, --help            show this help message and exit
+  -n INT, --numterms INT
+                        Number of series terms (default: 10)
+(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
+''''

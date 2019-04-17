@@ -1,3 +1,7 @@
+# Contact
+
+Patrick Lohr: pjlohr@email.arizona.edu
+
 # Implementation of Wynn's Epsilon Method For Convergence Acceleration
 For most convergent series, the rate of convergence can be accelerated by applying the [Shanks Transformation](https://en.wikipedia.org/wiki/Shanks_transformation), which approximates the limit of a sequence in a non-linear fashion. That is, for a series of the form:
 

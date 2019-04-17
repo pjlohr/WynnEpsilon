@@ -23,9 +23,9 @@ For this example, take the Gregory-Leibniz series for calculating π: <br />
 <p align="center">
   <img width="150" height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cfa16105f38678c4b8151cd1ac1cd1a0a8d219c6">
 </p>
-This series will eventually converge to π, but it will take thousands of terms to get even a decent a approximation! Just take a look at http://www.eveandersson.com/pi/gregory-leibniz. Even after 1000 terms, the series is only accurate to 2 decimal places.
+This series will eventually converge to π, but it will take thousands of terms to get even a decent a approximation! Just take a look at http://www.eveandersson.com/pi/gregory-leibniz. Even after 1000 terms, the series is only accurate to 2 decimal places.<br/>
 
-
+<br/>
 
 
 

@@ -28,6 +28,8 @@ This series will eventually converge to π, but it will take thousands of terms 
 
 wynnpi.py takes an integer argument N and implements Wynn's epsilon method to find a highly precise approximation for π after N terms of the Gregory-Leibniz series.
 
+#Expected Behavior
+
 ````
 (biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ ./wynnpi.py -h
 usage: wynnpi.py [-h] [-n INT]
@@ -38,5 +40,34 @@ optional arguments:
   -h, --help            show this help message and exit
   -n INT, --numterms INT
                         Number of series terms (default: 10)
+(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
+````
+````
+(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ ./wynnpi.py 
+
+Series approximation for π (10 terms):      3.041839618929403
+Wynn Epsilon accelerated result (10 terms): 3.141593311879928
+Actual Value:                               3.141592653589793
+Relative Error:                             2.0954025804051612e-07
+
+(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
+````
+
+#Test Suite
+
+````
+(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ make test
+pytest -v test.py
+========================================================================= test session starts ==========================================================================
+platform darwin -- Python 3.7.2, pytest-4.3.1, py-1.8.0, pluggy-0.9.0 -- /Users/patricklohr/anaconda3/envs/biosystems-analytics/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/patricklohr/Documents/Repo/biosys-analytics/assignments/14-open, inifile:
+collected 3 items                                                                                                                                                      
+
+test.py::test_usage PASSED                                                                                                                                       [ 33%]
+test.py::test_bad_input PASSED                                                                                                                                   [ 66%]
+test.py::test_good_input PASSED                                                                                                                                  [100%]
+
+======================================================================= 3 passed in 0.60 seconds =======================================================================
 (biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
 ````

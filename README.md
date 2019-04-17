@@ -47,14 +47,14 @@ optional arguments:
 (biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
 ````
 ````
-(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ ./wynnpi.py 
+(biosystems-analytics) dhcp-10-142-223-217:14-open patricklohr$ ./wynnpi.py -n 22
 
-Series approximation for π (10 terms):      3.041839618929403
-Wynn Epsilon accelerated result (10 terms): 3.141593311879928
+Series approximation for π (22 terms):      3.096161526463642
+Wynn Epsilon accelerated result (22 terms): 3.141592653589795
 Actual Value:                               3.141592653589793
-Relative Error:                             2.0954025804051612e-07
+Relative Error:                              7.067899292141149e-16
 
-(biosystems-analytics) Patricks-MacBook-Pro:14-open patricklohr$ 
+(biosystems-analytics) dhcp-10-142-223-217:14-open patricklohr$ 
 ````
 
 # Test Suite

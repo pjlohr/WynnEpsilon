@@ -18,11 +18,11 @@ This gives a method to solve for the k<sup>th</sup>-order Shank's Transformation
 <p align="center">
   <img width="400" height="50" src="http://www.adamponting.com/wp-content/ql-cache/quicklatex.com-91b574374d16e4cc835dc61a880325a8_l3.png">
 </p>
-Here, each ε<sub>2k</sub> is the equivalent of applying the k<sup>th</sup> Shanks Transformation to the n<sup>th</sup> partial sum S<sub>n</sub>. ε<sub>0</sub> is defined as S<sub>n</sub>, and the primary diagonal gives the next approximation.  <br />
-For this example, take the Gregory-Leibniz series for calculating π: <br />
+Here, each ε<sub>2k</sub> is the equivalent of applying the k<sup>th</sup> Shanks Transformation to the n<sup>th</sup> partial sum S<sub>n</sub>. ε<sub>0</sub> is defined as S<sub>n</sub>, and the primary diagonal gives the next approximation.
+For this example, take the Gregory-Leibniz series for calculating π:
 <p align="center">
   <img width="150" height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cfa16105f38678c4b8151cd1ac1cd1a0a8d219c6">
 </p>
-This series will eventually converge to π, but it will take thousands of terms to get even a decent a approximation! Just take a look at http://www.eveandersson.com/pi/gregory-leibniz. Even after 1000 terms, the series is only accurate to 2 decimal places.<br/>
-
+This series will eventually converge to π, but it will take thousands of terms to get even a decent a approximation! Just take a look at http://www.eveandersson.com/pi/gregory-leibniz. Even after 1000 terms, the series is only accurate to 2 decimal places.
+<br/>
 wynnpi.py takes an integer arguement N and implements Wynn's epsilon method to find a highly precise approximation for π after N terms of the Gregory-Leibniz series.
